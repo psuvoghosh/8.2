@@ -1,0 +1,242 @@
+.raw{
+    background: blue;
+    width: 100%;
+}
+.raw:before,
+.raw:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.col-1-of-12{
+    height:50px;
+    width: 7.41666667%;
+    background: #ccc;
+    float: left;
+    margin-right: 1%;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    
+}
+.col-1-of-12:last-child{
+    margin-right: 0;
+}
+.raw-2{
+    background: red;
+    width: 100%;
+}
+.raw-2:before,
+.raw-2:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.col-2-of-12{
+    height: 50px;
+    width: 15.8333333%;
+    float: left;
+    margin-right: 1%;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    background: #ccc;
+}
+.col-2-of-12:last-child{
+    margin-right: 0;
+}
+.raw-3{
+    background: yellow;
+    width: 100%;
+}
+.raw-3:before,
+.raw-3:after{
+    display: block;
+    content: " ";
+    clear: both;
+}
+.col-3-of-12{
+    width: 24.25%;
+    height: 50px;
+    float: left;
+    margin-right: 1%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    background: #ccc;
+    border: 1px solid #000;
+}
+.col-3-of-12:last-child{
+    margin-right: 0;
+}
+.raw-4{
+    width: 100%;
+    background: green;
+}
+.raw-4:before,
+.raw-4:after{
+    display: block;
+    content: " ";
+    clear: both;
+}
+.col-4-of-12{
+    width: 32.666667%;
+    height: 50px;
+    margin-right: 1%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    background: #ccc;
+    border: 1px solid #000;
+    float: left;
+}
+.col-4-of-12:last-child{
+    margin-right: 0;
+}
+.row-5{
+    width: 100%;
+    background: pink;
+    overflow: hidden;
+}
+
+.col-5-of-12{
+    width: 41.08333335%;
+    height: 50px;
+    margin-right: 1%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    background: #ccc;
+    border: 1px solid #000;
+    float: left;
+}
+.col-5-of-12:last-child{
+    margin-right: 0;
+}
+.row-6{
+    width: 100%;
+    background: red;
+    overflow: hidden;
+}
+.col-6-of-12{
+    width: 49.5%;
+    height: 50px;
+    margin-right: 1%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    background: #ccc;
+    border: 1px solid #000;
+    float: left;
+}
+.col-6-of-12:last-child{
+    margin-right: 0;
+}
+.raw-7{
+    width: 100%;
+    background: blue;
+}
+.raw-7:before,
+.raw-7:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.col-7-of-12{
+    width: 57.916667%;
+    height: 50px;
+    margin-right: 1%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    background: #ccc;
+    border: 1px solid #000;
+    float: left; 
+}
+.col-7-of-12:last-child{
+    margin-right: 0;
+}
+.raw-8{
+    width: 100%;
+    background: red;
+}
+.raw-8:before,
+.raw-8:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.col-8-of-12{
+    width: 66.3333336%;
+    height: 50px;
+    margin-right: 1%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    background: #ccc;
+    border: 1px solid #000;
+    float: left; 
+}
+.col-8-of-12:last-child{
+    margin-right: 0;
+}
+.raw-9{
+    width: 100%;
+    background: yellow;
+}
+.raw-9:before,
+.raw-9:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.col-9-of-12{
+    width: 74.750003%;
+    height: 50px;
+    margin-right: 1%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    background: #ccc;
+    border: 1px solid #000;
+    float: left;   
+}
+.col-9-of-12:last-child{
+    margin-right: 0;
+}
+.raw-10{
+    width: 100%;
+    background: green;
+}
+.raw-10:before,
+.raw-10:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.col-10-of-12{
+    width: 83.1666667%;
+    height: 50px;
+    margin-right: 1%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    background: #ccc;
+    border: 1px solid #000;
+    float: left;     
+}
+.col-10-of-12:last-child{
+    margin-right: 0;
+}
